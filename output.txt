@@ -1,0 +1,7 @@
+Testing App ID: b6099028-884a-4125-948b-0f2ec0de7cb2
+STATUS CODE: 400
+RESPONSE JSON:
+{
+  "error_description": "specify valid applicationId",
+  "error": "wrong_parameter"
+}

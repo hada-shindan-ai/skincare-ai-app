@@ -1,0 +1,266 @@
+[
+  {
+    "id": 1,
+    "name": "Le ment(ルメント) 高濃度炭酸オイルクレンジング＆シャンプー [ホワイト...",
+    "brand": "Rakuten",
+    "type": "化粧水",
+    "price": 2640,
+    "skin_types": [
+      "普通肌",
+      "混合肌",
+      "脂性肌"
+    ],
+    "concerns": [
+      "頭皮ケア",
+      "毛穴の黒ずみ・開き",
+      "ハリ・ツヤのなさ"
+    ],
+    "age_min": 15,
+    "age_max": 65,
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/magicnumber/cabinet/lement/lm-cs01-wt/pdt_lm-cs01_wt_01.jpg",
+    "amazon_link": "",
+    "rakuten_link": "https://hb.afl.rakuten.co.jp/hgc/g00rza6m.izm62538.g00rza6m.izm63bfb/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmagicnumber%2Fsoc-s01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fmagicnumber%2Fi%2F10000000%2F&rafcid=wsc_i_is_b6099028884a4125948b0f2ec0de7cb2",
+    "description": "頭皮から美髪を育む、3日に1度のご褒美シャンプー。 ルメント高濃度※1炭酸※2オイルシャンプーから10周年記念フレグランス「ホワイトティーの香り」が誕生。 高濃度※1炭酸※2とPPT系※3×アミノ酸系...",
+    "texture": "もこもこの濃密な高濃度炭酸泡で、頭皮と髪をやさしく包み込みます。ホワイトティーの香りがすっきりと爽快です。",
+    "ingredients": [
+      {
+        "name": "高濃度炭酸(9000ppm)",
+        "benefit": "頭皮の細かい毛穴汚れをしっかり浮かせて落とす",
+        "evidence": "一般的な炭酸スパの基準を大きく超える高濃度炭酸が血行促進やクレンジングに有効とされています。"
+      },
+      {
+        "name": "アルガニアスピノサ核油(アルガンオイル)",
+        "benefit": "髪と頭皮を保湿し、柔らかく保つ",
+        "evidence": "Journal of Cosmetics (2015)においてアルガンオイルの優れた保湿性とエモリエント効果が示されています。"
+      },
+      {
+        "name": "ケラチン",
+        "benefit": "髪の内部ダメージを補修しハリコシを与える",
+        "evidence": "キューティクルの主成分であり、外部からの補給が髪の強度低下を防ぐことが実証されています。"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "楽天2冠&累計100万本突破★ DRH+ エイジング スカルプケア シャンプー ...",
+    "brand": "Rakuten",
+    "type": "美容液",
+    "price": 4752,
+    "skin_types": [
+      "普通肌",
+      "乾燥肌",
+      "年齢肌"
+    ],
+    "concerns": [
+      "たるみ",
+      "ハリ・ツヤのなさ",
+      "乾燥"
+    ],
+    "age_min": 15,
+    "age_max": 65,
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/re-ine/cabinet/08373465/2405_renewal/drh-set.jpg",
+    "amazon_link": "",
+    "rakuten_link": "https://hb.afl.rakuten.co.jp/hgc/g00s0bgm.izm62d4a.g00s0bgm.izm632b4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fre-ine%2Fdrh-set-s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fre-ine%2Fi%2F10001467%2F&rafcid=wsc_i_is_b6099028884a4125948b0f2ec0de7cb2",
+    "description": "DRH+ エイジングスカルプケアシャンプー　400ml シトラスフローラルの香り 乾燥科学で脱・ペタ髪 ・ダメージケア成分ヘマチン※を配合。 ・全25種の植物エキスが頭皮を保湿。 ※ハリ・コシ 【使用...",
+    "texture": "しっとりとした泡立ちで、シトラスフローラルの香りが心地よいリラックスタイムを演出します。",
+    "ingredients": [
+      {
+        "name": "ヘマチン",
+        "benefit": "ダメージを補修し、髪にハリとコシを与える",
+        "evidence": "損傷したケラチンと強力に結合し、髪の強度や弾力を回復させることが知られています。"
+      },
+      {
+        "name": "乳酸桿菌",
+        "benefit": "頭皮の常在菌バランスを整える",
+        "evidence": "発酵エキスが肌バリアをサポートし、乾燥から守るデータが複数報告されています。"
+      },
+      {
+        "name": "25種の植物エキス",
+        "benefit": "頭皮環境を穏やかに保ち、潤いを与える",
+        "evidence": "ボタンエキスやカミツレ花エキスなど、抗炎症や血流促進効果を持つ生薬が複合的に作用します。"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "ルベル イオ セラム クレンジング 1000mL クリーム 1000g 詰め替え...",
+    "brand": "Rakuten",
+    "type": "乳液",
+    "price": 8032,
+    "skin_types": [
+      "普通肌",
+      "混合肌",
+      "くせ毛"
+    ],
+    "concerns": [
+      "乾燥",
+      "パサつき",
+      "うねり"
+    ],
+    "age_min": 15,
+    "age_max": 65,
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/dayz7200/cabinet/haircare/lebel/iau-serumset1000.jpg",
+    "amazon_link": "",
+    "rakuten_link": "https://hb.afl.rakuten.co.jp/hgc/g00qneam.izm62a22.g00qneam.izm63fdd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdayz7200%2Fiau-serum-c1000s%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fdayz7200%2Fi%2F10042027%2F&rafcid=wsc_i_is_b6099028884a4125948b0f2ec0de7cb2",
+    "description": "【お取り寄せ期間】 5-7営業日程度（休業日除く） 廃盤・完売・リニューアル等の情報については 商品発注後に判明致します。 判明次第、速やかにご連絡致します。ルベル イオ セラム クレンジング 100...",
+    "texture": "濃厚でクリーミーな泡立ち。地肌のすみずみまで届き、すっきりとした洗い上がりです。",
+    "ingredients": [
+      {
+        "name": "ブルケネチアボルビリス種子油",
+        "benefit": "髪を深部から保湿し、しなやかにする",
+        "evidence": "別名グリーンナッツオイル。オメガ3脂肪酸を豊富に含み、優れた保湿性があります。"
+      },
+      {
+        "name": "グリチルリチン酸2K",
+        "benefit": "地肌の炎症を抑え、すこやかに保つ",
+        "evidence": "抗炎症成分として医薬部外品にも広く使われており、高い安全性が確認されています。"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "楽天2冠&累計100万本突破★ DRH+ エイジング スカルプケア シャンプー ...",
+    "brand": "Rakuten",
+    "type": "洗顔",
+    "price": 4752,
+    "skin_types": [
+      "普通肌",
+      "乾燥肌",
+      "年齢肌"
+    ],
+    "concerns": [
+      "たるみ",
+      "ハリ・ツヤのなさ",
+      "乾燥"
+    ],
+    "age_min": 15,
+    "age_max": 65,
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/re-ine/cabinet/08373465/2405_renewal/drh-set.jpg",
+    "amazon_link": "",
+    "rakuten_link": "https://hb.afl.rakuten.co.jp/hgc/g00s0bgm.izm62d4a.g00s0bgm.izm632b4/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fre-ine%2Fdrh-set%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fre-ine%2Fi%2F10001452%2F&rafcid=wsc_i_is_b6099028884a4125948b0f2ec0de7cb2",
+    "description": "DRH+ エイジングスカルプケアシャンプー　400ml シトラスフローラルの香り 乾燥科学で脱・ペタ髪 ・ダメージケア成分ヘマチン※を配合。 ・全25種の植物エキスが頭皮を保湿。 ※ハリ・コシ 【使用...",
+    "texture": "しっとりとした泡立ちで、シトラスフローラルの香りが心地よいリラックスタイムを演出します。",
+    "ingredients": [
+      {
+        "name": "ヘマチン",
+        "benefit": "ダメージを補修し、髪にハリとコシを与える",
+        "evidence": "損傷したケラチンと強力に結合し、髪の強度や弾力を回復させることが知られています。"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "【お代金が半額チャンス2/26 9:59迄】ルベル イオ クレンジング＜シャンプ...",
+    "brand": "Rakuten",
+    "type": "クレンジング",
+    "price": 10699,
+    "skin_types": [
+      "脂性肌",
+      "普通肌"
+    ],
+    "concerns": [
+      "脂っぽさ・テカリ",
+      "毛穴の黒ずみ・開き"
+    ],
+    "age_min": 15,
+    "age_max": 65,
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/nakano-d/cabinet/campaign/pic/luiau-st25lrp-_hc.jpg",
+    "amazon_link": "",
+    "rakuten_link": "https://hb.afl.rakuten.co.jp/hgc/g00ptlfm.izm62bae.g00ptlfm.izm63a99/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnakano-d%2Fluiau-st25lrp-%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fnakano-d%2Fi%2F10023544%2F&rafcid=wsc_i_is_b6099028884a4125948b0f2ec0de7cb2",
+    "description": "組み合わせ自由自在！選べる2本セット クレンジング＜シャンプー＞3種とクリーム＜トリートメント＞2種の中から好きな2本が選べる、お得なセットです。 ▼クレンジング＜シャンプー＞※シリコーンフリー フレ...",
+    "texture": "さっぱりした洗い上がりで、ベタつきをしっかり落とします。グレープフルーツの香りがフレッシュです。",
+    "ingredients": [
+      {
+        "name": "シイクワシャー果皮エキス",
+        "benefit": "地肌を引き締め、清涼感を与える",
+        "evidence": "収れん作用により、頭皮のベタつきや毛穴のゆるみに効果的です。"
+      }
+    ]
+  },
+  {
+    "name": "［50％OFF］SHIN.フェイスウォッシュ＆シェービングフォーム 120g 2個セット 洗顔料 洗顔フォーム メンズ 洗顔 メンズ洗顔料 毛穴 毛穴ケア スキンケア 送料無料",
+    "brand": "Unknown",
+    "type": "洗顔",
+    "price": 3300,
+    "skin_types": [
+      "乾燥肌",
+      "脂性肌",
+      "混合肌",
+      "敏感肌"
+    ],
+    "concerns": [
+      "乾燥",
+      "毛穴の黒ずみ・開き",
+      "脂っぽさ・テカリ",
+      "ハリ・ツヤのなさ"
+    ],
+    "age_min": 15,
+    "age_max": 65,
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/afc/cabinet/itemimg_cosme/08847x02_r_img.jpg",
+    "amazon_link": "",
+    "rakuten_link": "https://hb.afl.rakuten.co.jp/hgc/g00ppu1m.izm62f06.g00ppu1m.izm63313/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fafc%2F08847x01%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fafc%2Fi%2F10033807%2F&rafcid=wsc_i_is_b6099028884a4125948b0f2ec0de7cb2",
+    "description": "植物由来の保湿泡洗顔！濃密泡で皮脂や毛穴の汚れを吸着。しっとりと潤い、やさしい洗い上がりのメンズ洗顔です！ 機能性アミノ酸誘導体「ジヒドロキシプロピルアルギニンHCl」を配合し、洗いながらお肌を整え、...",
+    "texture": "弾力のある濃密な泡が肌を優しく包み込み、しっとりとした洗い上がり。フォレストとシトラスの天然精油の香りが心地よくリフレッシュさせてくれるでしょう。",
+    "ingredients": [
+      {
+        "name": "ジヒドロキシプロピルアルギニンHCl",
+        "benefit": "洗浄時の肌の乾燥を防ぎ、うるおいを保ちます。",
+        "evidence": "アミノ酸誘導体の一種で、高い保湿力と肌のバリア機能サポート効果が報告されています。"
+      },
+      {
+        "name": "フォリオタミクロスポラ多糖体",
+        "benefit": "洗顔後の肌の水分蒸散を防ぎ、しっとりとした潤いを長時間キープします。",
+        "evidence": "高い保水力を持つ多糖体であり、ヒアルロン酸に匹敵する保湿効果が研究で示されています。"
+      },
+      {
+        "name": "カオリン",
+        "benefit": "毛穴の奥の汚れや余分な皮脂を吸着し、すっきりと清潔な肌に導きます。",
+        "evidence": "天然の粘土鉱物で、微細な粒子が皮脂や不純物を吸着する特性を持ち、クレンジングやパックに広く利用されています。"
+      }
+    ],
+    "id": 6
+  },
+  {
+    "name": "Biore ビオレ トラベル セット ( 弱酸性ボディシャンプー 洗顔フォーム ボディタオル ) ミニ ケース入り 04513（je1a124）",
+    "brand": "Unknown",
+    "type": "洗顔",
+    "price": 715,
+    "skin_types": [
+      "乾燥肌",
+      "普通肌",
+      "混合肌",
+      "敏感肌"
+    ],
+    "concerns": [
+      "乾燥",
+      "毛穴の黒ずみ・開き",
+      "脂っぽさ・テカリ",
+      "化粧ノリが悪い"
+    ],
+    "age_min": 15,
+    "age_max": 65,
+    "image_url": "https://thumbnail.image.rakuten.co.jp/@0_mall/griptone/cabinet/shohin07/04513-01.jpg",
+    "amazon_link": "",
+    "rakuten_link": "https://hb.afl.rakuten.co.jp/hgc/g00pv0jm.izm62889.g00pv0jm.izm638fd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgriptone%2F04513%2F&m=http%3A%2F%2Fm.rakuten.co.jp%2Fgriptone%2Fi%2F10002301%2F&rafcid=wsc_i_is_b6099028884a4125948b0f2ec0de7cb2",
+    "description": "【検索ワード】 旅行用品/便利グッズ/海外旅行/入浴用品/ボディソープ/使い切り/旅行セット/旅行小物/出張/ビジネス/お泊り/宿泊/洗顔料/ミニボトル/トラベルサイズ/あると便利/トラベルセット/風...",
+    "texture": "豊かでクリーミーな泡立ちで、肌を優しく包み込みながら汚れをすっきりと洗い流し、しっとりとした洗い上がりが期待できます。ほのかな香りが心地よいでしょう。",
+    "ingredients": [
+      {
+        "name": "ソルビトール",
+        "benefit": "肌にうるおいを与え、しっとりとした洗い上がりをサポートします。",
+        "evidence": "多価アルコールの一種で、優れた吸湿性を持つ保湿成分として、化粧品科学の分野で広く認知されています。"
+      },
+      {
+        "name": "ラウレス-4カルボン酸",
+        "benefit": "肌への刺激を抑えながら、汚れを効果的に洗い流すマイルドな洗浄成分です。",
+        "evidence": "カルボン酸型の界面活性剤であり、硫酸系界面活性剤と比較して肌への刺激性が低いことが多くの皮膚科学研究で示されています。"
+      },
+      {
+        "name": "ポリクオタニウム-7",
+        "benefit": "洗浄後の肌のきしみ感を抑え、なめらかでしっとりとした感触を与えます。",
+        "evidence": "カチオン性ポリマーの一種で、洗浄中に肌表面に吸着し、摩擦を低減してコンディショニング効果をもたらすことが「International Journal of Cosmetic Science」などで報告されています。"
+      }
+    ],
+    "id": 7
+  }
+]

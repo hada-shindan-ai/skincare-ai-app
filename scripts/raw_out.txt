@@ -1,0 +1,16 @@
+=== 楽天商品自動取得スクリプトを開始します ===
+[クレンジング] を検索中... (keyword: クレンジング メイク落とし)
+エラー発生 (クレンジング): 400 - {"error_description":"specify valid applicationId","error":"wrong_parameter"}
+[洗顔] を検索中... (keyword: 洗顔フォーム)
+エラー発生 (洗顔): 400 - {"error_description":"specify valid applicationId","error":"wrong_parameter"}
+[化粧水] を検索中... (keyword: 化粧水 ローション)
+エラー発生 (化粧水): 400 - {"error_description":"specify valid applicationId","error":"wrong_parameter"}
+[美容液] を検索中... (keyword: 美容液 セラム)
+エラー発生 (美容液): 400 - {"error_description":"specify valid applicationId","error":"wrong_parameter"}
+[乳液] を検索中... (keyword: 乳液 ミルク)
+エラー発生 (乳液): 400 - {"error_description":"specify valid applicationId","error":"wrong_parameter"}
+[クリーム] を検索中... (keyword: フェイスクリーム 保湿クリーム)
+エラー発生 (クリーム): 400 - {"error_description":"specify valid applicationId","error":"wrong_parameter"}
+
+完了！ 0件の商品データを C:\Users\user\Desktop\Skincare_App\scripts\rakuten_raw_products.json に保存しました。
+=> 次のステップ: update_db.py を実行して、このデータをAIに分析・整形させてください。
