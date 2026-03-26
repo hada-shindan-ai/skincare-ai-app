@@ -97,18 +97,45 @@ def main():
         return
         
     # アプリの診断ステップに合わせてカテゴリを用意
+    # さらに「韓国コスメ」のキーワードも追加してバリエーションを増やします
     categories_to_search = [
         {"name": "クレンジング", "keyword": "クレンジング メイク落とし"},
+        {"name": "韓国クレンジング", "keyword": "韓国コスメ クレンジング"},
         {"name": "洗顔", "keyword": "洗顔フォーム"},
+        {"name": "韓国洗顔", "keyword": "韓国コスメ 洗顔"},
         {"name": "化粧水", "keyword": "化粧水 ローション"},
+        {"name": "韓国化粧水", "keyword": "韓国コスメ 化粧水"},
         {"name": "美容液", "keyword": "美容液 セラム"},
+        {"name": "韓国美容液", "keyword": "韓国コスメ 美容液"},
         {"name": "乳液", "keyword": "乳液 ミルク"},
-        {"name": "クリーム", "keyword": "フェイスクリーム 保湿クリーム"}
+        {"name": "韓国乳液", "keyword": "韓国コスメ 乳液"},
+        {"name": "クリーム", "keyword": "フェイスクリーム 保湿クリーム"},
+        {"name": "韓国クリーム", "keyword": "韓国コスメ クリーム"}
     ]
     
     all_products = []
     
-    # 順番にAPIを実行
+    # 1. YouTubeトレンド商品が存在すれば読み込んで検索する
+    trending_file = os.path.join(os.path.dirname(__file__), 'trending_products.json')
+    if os.path.exists(trending_file):
+        try:
+            with open(trending_file, 'r', encoding='utf-8') as f:
+                trending_names = json.load(f)
+            if trending_names:
+                print(f"\n★ YouTubeトレンド商品 {len(trending_names)} 件の楽天検索を開始します！")
+                for name in trending_names:
+                    # カテゴリは「YouTubeトレンド」とし、ヒット数は最も関連性が高い最初の1件にする
+                    items = fetch_products_for_category(app_id, affiliate_id, access_key, "YouTubeトレンド", name, hits=1)
+                    # (もしダミーデータしか返ってこない場合のエラーハンドリングは既存のものを使用)
+                    if items:
+                        all_products.extend(items)
+                    time.sleep(1.5)
+        except Exception as e:
+            print(f"トレンドリスト読み込みエラー: {e}")
+            
+    print("\n★ 通常のカテゴリランキング検索を開始します！")
+    
+    # 2. 順番に通常のカテゴリAPIを実行
     for cat in categories_to_search:
         # まずは各カテゴリ上位5つを取得
         items = fetch_products_for_category(app_id, affiliate_id, access_key, cat["name"], cat["keyword"], hits=5)
