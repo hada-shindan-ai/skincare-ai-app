@@ -1,0 +1,49 @@
+name: Update Product Database
+
+on:
+  schedule:
+    # 毎日 日本時間(JST)の深夜3時 = UTCの18時 に実行
+    - cron: '0 18 * * *'
+  workflow_dispatch: # 手動で「いますぐ実行」ボタンから動かせるようにする設定
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Fetch robust skincare products from Rakuten
+        env:
+          RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
+          RAKUTEN_AFFILIATE_ID: ${{ secrets.RAKUTEN_AFFILIATE_ID }}
+        run: python scripts/fetch_products.py
+        
+      - name: Evaluate and Update Database using Gemini AI
+        env:
+          GEMINI_BACKEND_API_KEY: ${{ secrets.GEMINI_BACKEND_API_KEY }}
+        run: python scripts/update_db.py
+        
+      - name: Commit and push changes
+        run: |
+          # Gitの操作者（ボット）の名前とメールアドレスを設定
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 更新されたJSONファイルを登録
+          # フォルダ内のjsonファイル全体を指定しています
+          git add products.json scripts/*.json
+          
+          # 変更がある場合のみコミットしてプッシュする
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update product database by AI [skip ci]" && git push)
